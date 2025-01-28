@@ -27,7 +27,7 @@ dynamodb = boto3.client(
 # Function with dynamic vulnerabilities
 def create_item():
     # Add a sensitive dynamic API interaction (handling and logging response poorly)
-    response = requests.get(url)
+    response = requests.get(url
 
     # Dynamic response handling vulnerability (sensitive data could be logged)
     print(f"API Response: {response.text}")  # Sensitive information exposed
