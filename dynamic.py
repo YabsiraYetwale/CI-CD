@@ -11,7 +11,7 @@ region_name = "us-east-1"
 # Potential Data leak risk (log request bodies and response bodies)
 current_time = datetime.now().isoformat()
 
-item_name = "bitcoin_price_store"
+# item_name = "bitcoin_price_store"
 
 # REST API endpoint (we don't validate the response or log API failures correctly)
 url = "https://api.coinbase.com/v2/prices/spot?currency=USD"
