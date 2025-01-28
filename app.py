@@ -4,7 +4,7 @@ import pytz
 from datetime import datetime
 import uuid
 
-# Your AWS credentials and region for DynamoDB
+# Your AWS credentials and region for DynamoDB //
 region_name = 'us-east-1'
 timezone = pytz.timezone('Africa/Addis_Ababa')
 current_time = datetime.now(timezone).isoformat()
